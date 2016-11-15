@@ -1,0 +1,12 @@
+{
+  "id": "/demo/ruby-logging/v2",
+  "instances": 1,
+  "cpus": 0.1,
+  "mem": 128,
+  "container": {
+    "docker": {
+      "image": "justinclayton/ruby-logging:v2",
+      "forcePullImage": true
+    }
+  }
+}
